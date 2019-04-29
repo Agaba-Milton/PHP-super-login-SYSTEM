@@ -22,6 +22,10 @@ CREATE TABLE `users` (
 
 
 
+
+
+INSERT THE FOLLOWING IN YOUR PHPmysql "SQL" tab IN ORDER TO GET USERS that are appearing in the customers array plus the admin
+
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `contact_number`, `address`, `password`, `access_level`, `access_code`, `status`, `created`, `modified`) VALUES
 (1, 'Mike', 'Dalisay', 'mike@example.com', '0999999999', 'Blk. 24 A, Lot 6, Ph. 3, Peace Village', '$2y$10$AUBptrm9sQF696zr8Hv31On3x4wqnTihdCLocZmGLbiDvyLpyokL.', 'Admin', '', 1, '0000-00-00 00:00:00', '2016-06-13 18:17:47'),
 (2, 'Lauro', 'Abogne', 'lauro@eacomm.com', '08888888', 'Pasig City', '$2y$10$it4i11kRKrB19FfpPRWsRO5qtgrgajL7NnxOq180MsIhCKhAmSdDa', 'Customer', '', 1, '0000-00-00 00:00:00', '2015-03-24 07:00:21'),
@@ -35,5 +39,10 @@ INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `contact_number`, `
 (21, 'Tony', 'Parker', 'tony@example.com', '8888888', 'Blk 24 A Lot 6 Ph 3\r\nPeace Village, San Luis', '$2y$10$lBJfvLyl/X5PieaztTYADOxOQeZJCqETayF.O9ld17z3hcKSJwZae', 'Customer', 'THM3xkZzXeza5ISoTyPKl6oLpVa88tYl', 1, '2016-05-26 01:29:01', '2016-06-13 17:46:33');
 
 
+
+
+ADMIN 
+Username: mike@example.com
+Password: ninja12qw!@QW
 
 
