@@ -42,7 +42,7 @@ INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `contact_number`, `
 
 
 ADMIN 
-Username: mike@example.com
+Username: mike@example.com,       
 Password: ninja12qw!@QW
 
 
